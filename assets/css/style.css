@@ -55,3 +55,7 @@ li a {
 .nav-underline:hover::after {
   width: 90%;
 }
+
+.section {
+  height: 100vh;
+}
