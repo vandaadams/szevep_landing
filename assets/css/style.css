@@ -1,8 +1,15 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Exo', sans-serif;
 }
 
 #navbar {
+  position: fixed;
+  z-index: 5;
   font-family: 'Exo', sans-serif;
   width: 100%;
   background-color: #fff;
@@ -16,7 +23,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 1em 0;
+  padding: 0.5em 0;
 }
 
 li a {
@@ -48,7 +55,7 @@ li a {
   height: 0.25em;
   width: 0%;
   background: #FAC700;
-  bottom: -0.5em;
+  bottom: -0.25em;
   transition: all ease-in-out 250ms;
 }
 
@@ -58,4 +65,23 @@ li a {
 
 .section {
   height: 100vh;
+}
+
+#home {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/photo-0.jpeg);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 60%;
+  height: 50%;
 }
