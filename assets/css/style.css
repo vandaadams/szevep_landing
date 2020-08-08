@@ -100,3 +100,30 @@ li a {
 .about-content {
   text-align: justify;
 }
+
+#services {
+  background-color: #FAC700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#services h1 {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: baseline;
+}
+
+.card img {
+  width: 150px;
+}
+
+.card {
+  text-align: center;
+}
