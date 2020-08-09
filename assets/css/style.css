@@ -240,6 +240,10 @@ li a {
   flex-direction: column;
 }
 
+.info-content h3 {
+  font-family: 'Exo', sans-serif;
+}
+
 .footer-info {
   background-color: #FAC700;
 }
