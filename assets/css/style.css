@@ -63,8 +63,18 @@ li a {
   width: 90%;
 }
 
+.active::after {
+  width: 90%;
+}
+
 .section {
   height: 100vh;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.hidden {
+  opacity: 0;
 }
 
 #home {
