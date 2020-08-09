@@ -196,5 +196,60 @@ li a {
 }
 
 #contact {
-  background: linear-gradient(to top left, #FAC700 50% , #fff 50%);
+  background: #D6DBDE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact h1 {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 3em;
+}
+
+#contact h3 {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em;
+}
+
+.info-card {
+  display: flex;
+  background-color: #fff;
+  padding-right: 2em;
+  border-radius: 4px;
+}
+
+.avatar img {
+  width: 150px;
+}
+
+.avatar {
+  padding: 1em;
+  background: linear-gradient(to left, #fff 50% , #000 50%);
+  border-radius: 4px;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-content h3 {
+  font-family: 'Exo', sans-serif;
+}
+
+.footer-info {
+  background-color: #FAC700;
+}
+
+.footer-info ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
