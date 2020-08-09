@@ -87,22 +87,25 @@ li a {
 }
 
 #about {
+  background: linear-gradient(to left, #FAC700 50% , #fff 50%);
   display: flex;
   align-items: center;
-  margin: 0 24px;
 }
 
 .about-img img {
-  width: 50vw;
-  margin-right: 24px;
+  width: 45vw;
+  margin: 0 2.5em;
 }
 
 .about-content {
   text-align: justify;
+  margin-right: 2.5em;
 }
 
 #services {
-  background-color: #FAC700;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/photo-6.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,20 +113,40 @@ li a {
 
 #services h1 {
   text-align: center;
-  margin: 2em 0;
+  margin-bottom: 2em;
+  color: #fff;
+  font-size: 2.5em;
 }
 
 .card-container {
+  margin: 0 1em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  align-items: baseline;
-}
 
-.card img {
-  width: 150px;
 }
 
 .card {
+  padding: 2em;
+  margin: 0 1em;
   text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 4px;
+}
+
+.card img {
+  height: 125px;
+}
+
+.card h3 {
+  font-family: 'Exo', sans-serif;
+}
+
+.card ul {
+  text-align: justify;
+  padding-left: 16px;
+}
+
+#contact {
+  background: linear-gradient(to top left, #FAC700 50% , #fff 50%);
 }
