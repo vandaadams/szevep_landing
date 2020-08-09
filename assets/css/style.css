@@ -147,6 +147,15 @@ li a {
   padding-left: 16px;
 }
 
+#references {
+  margin: 2em;
+}
+
+.carousel-items img {
+  height: 250px;
+  width: 250px;
+}
+
 #contact {
   background: linear-gradient(to top left, #FAC700 50% , #fff 50%);
 }
