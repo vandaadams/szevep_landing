@@ -148,12 +148,51 @@ li a {
 }
 
 #references {
-  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D6DBDE;
 }
 
-.carousel-items img {
+.ref-content {
+  margin: 4em;
+}
+
+.ref-content h3 {
+  text-align: justify;
+  width: 50%;
+}
+
+.carousel-items {
+  padding: 2em 0;
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.carousel-item {
   height: 250px;
   width: 250px;
+  padding: 0 1em;
+  display: none;
+  overflow: hidden;
+}
+
+.visible {
+  display: inline-block;
+}
+
+.carousel-items button {
+  background: transparent;
+  border: none;
+  font-size: 3em;
+  cursor: pointer;
+}
+
+.carousel-items button:focus {
+    outline: none;
 }
 
 #contact {
