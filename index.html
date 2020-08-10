@@ -4,8 +4,11 @@
     <meta charset="utf-8">
     <title>Szevép Kft.</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="https://kit.fontawesome.com/14a8b2ed20.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
   </head>
   <body>
     <div id='navbar'>
@@ -29,7 +32,7 @@
       </div>
       <div class="about-content">
         <h1>Rólunk</h1>
-        <p>Cégünk 2019-ben kezdte tevékenységét az építőipar elektromos ágazatában, több év külföldön szerzett munkatapasztalatra alapozva. Egyéni vállalkozásunk hamar Kft-vé alakult, célunk a gyors és folyamatos fejlődés. Gépparkunk bobcat1-vel és bobcat2-vel, csapatunk 4 új munkatárssal bővült megalapulásunk óta.</p>
+        <p>Cégünk 2019-ben kezdte tevékenységét az építőipar elektromos ágazatában, több év külföldön szerzett munkatapasztalatra alapozva. Egyéni vállalkozásunk hamar Kft-vé alakult, célunk a gyors és folyamatos fejlődés. Gépparkunk bobcat1-vel és bobcat2-vel, csapatunk 4 új munkatárssal bővült megalakulásunk óta.</p>
         <p>Főbb tevékenységünk a családi házak, irodák, ipari- és lakóparkok villamos hálózatának építése, korszerűsítése, valamint gépi földmunka végzése. Nagy hangsúlyt fektetünk a minőségre, ezért a legmodernebb eszközökkel, gépekkel dolgozunk. Az ország egész területén, rugalmas időbeosztással igyekszünk gyors és hatékony megoldást kínálni ügyfeleink elképzeléseinek megvalósításához.</p>
         </div>
     </div>
@@ -71,55 +74,61 @@
         <h3>Ügyfeleink elégedettsége és bizalma a legfontosabb számunkra. Számos új partnerünkkel alakul ki szakmai kapcsolat ajánlás útján,
           ami meglévő partnereink elégedettségét mutatja. Cégünk alakulása óta több, mint (szám) épület kivitelezésében vett részt.</h3>
           <div class="carousel">
-            <div class="carousel-items">
-              <button type="button" name="button"><i class="fas fa-chevron-left"></i></button>
-              <img src="assets/images/ref-0.jpg" class="carousel-item visible">
-              <img src="assets/images/ref-1.jpeg" class="carousel-item visible">
-              <img src="assets/images/ref-2.jpeg" class="carousel-item visible">
-              <img src="assets/images/ref-3.jpeg" class="carousel-item visible">
-              <img src="assets/images/ref-4.jpeg" class="carousel-item">
-              <img src="assets/images/ref-5.jpeg" class="carousel-item">
-              <button type="button" name="button"><i class="fas fa-chevron-right"></i></button>
+            <div class="carousel-items multiple-items">
+              <!-- <button type="button" name="button"><i class="fas fa-chevron-left"></i></button> -->
+              <div class="carousel-item"><img src="assets/images/ref-0.jpg"></div>
+              <div class="carousel-item"><img src="assets/images/ref-1.jpeg"></div>
+              <div class="carousel-item"><img src="assets/images/ref-2.jpeg"></div>
+              <div class="carousel-item"><img src="assets/images/ref-3.jpeg"></div>
+              <div class="carousel-item"><img src="assets/images/ref-4.jpeg"></div>
+              <div class="carousel-item"><img src="assets/images/ref-5.jpeg"></div>
+              <!-- <button type="button" name="button"><i class="fas fa-chevron-right"></i></button> -->
             </div>
           </div>
       </div>
     </div>
     <div class="section contact hidden" id="contact">
-      <h1>Kapcsolat</h1>
-      <h3>Cégünk országos lefedettséggel végzi tevékenységeit. Árajánlatért vegye fel velünk a kapcsolatot.</h3>
-      <div class="cards">
-        <div class="info-card">
-          <div class="avatar">
-            <img src="assets/images/avatar.jpg" alt="">
+      <div class="left-side">
+        <h1>Kapcsolat</h1>
+        <h3>Cégünk országos lefedettséggel végzi tevékenységeit. Árajánlatért vegye fel velünk a kapcsolatot.</h3>
+        <div class="cards">
+          <div class="info-card">
+            <div class="avatar">
+              <img src="assets/images/avatar.jpg" alt="">
+            </div>
+            <div class="info-content">
+              <h3>Erdelics Patrick</h3>
+              <p>Ügyvezető</p>
+              <p>+36 30 491 4828</p>
+            </div>
           </div>
-          <div class="info-content">
-            <h3>Erdelics Patrick</h3>
-            <p>Ügyvezető</p>
-            <p>+36 30 491 4828</p>
+          <div class="info-card">
+            <div class="avatar">
+              <img src="assets/images/avatar.jpg" alt="">
+            </div>
+            <div class="info-content">
+              <h3>Szabó Kristóf</h3>
+              <p>Ügyvezető</p>
+              <p>+36 70 967 6392</p>
+            </div>
           </div>
         </div>
-        <div class="info-card">
-          <div class="avatar">
-            <img src="assets/images/avatar.jpg" alt="">
-          </div>
-          <div class="info-content">
-            <h3>Szabó Kristóf</h3>
-            <p>Ügyvezető</p>
-            <p>+36 70 967 6392</p>
-          </div>
+        <div class="footer-info">
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> 4274 Hosszúpályi, Petőfi u. 10.</li>
+            <li><i class="fas fa-envelope-open-text"></i> info@szevep.hu</li>
+            <li><i class="fas fa-file-invoice"></i> adószám</li>
+            <li><i class="fas fa-money-check-alt"></i> bankszámlaszám</li>
+          </ul>
         </div>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.9417085584555!2d21.733569815595807!3d47.393570210662915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4747a82a5b48039b%3A0x9f60ea708b7f83d!2zSG9zc3rDunDDoWx5aSwgUGV0xZFmaSBTw6FuZG9yIHUuLCA0Mjc0IEh1bmdhcnk!5e0!3m2!1sen!2suk!4v1596987357984!5m2!1sen!2suk" width="100%" height="40%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      <div class="footer-info">
-        <ul>
-          <li><i class="fas fa-map-marker-alt"></i> 4274 Hosszúpályi, Petőfi u. 10.</li>
-          <li><i class="fas fa-envelope-open-text"></i> info@szevep.hu</li>
-          <li><i class="fas fa-file-invoice"></i> adószám</li>
-          <li><i class="fas fa-money-check-alt"></i> bankszámlaszám</li>
-        </ul>
+      <div class="right-side">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.9417085584555!2d21.733569815595807!3d47.393570210662915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4747a82a5b48039b%3A0x9f60ea708b7f83d!2zSG9zc3rDunDDoWx5aSwgUGV0xZFmaSBTw6FuZG9yIHUuLCA0Mjc0IEh1bmdhcnk!5e0!3m2!1sen!2suk!4v1596987357984!5m2!1sen!2suk" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
     </div>
+    <script src="https://unpkg.com/in-view@0.6.1/dist/in-view.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
    </body>
-   <script src="https://unpkg.com/in-view@0.6.1/dist/in-view.min.js"></script>
-   <script src="main.js"></script>
 </html>
