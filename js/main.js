@@ -32,3 +32,11 @@ inView('.section')
   })
 
   inView.threshold(0.5);
+
+$(function() {
+  $('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1
+  });
+});

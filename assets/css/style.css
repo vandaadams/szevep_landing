@@ -174,24 +174,24 @@ li a {
 }
 
 .carousel-items {
-  padding: 2em 0;
   margin-top: 2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-item {
-  height: 250px;
-  width: 250px;
-  padding: 0 1em;
-  display: none;
-  overflow: hidden;
+  padding: 2em 0;
 }
 
-.visible {
-  display: inline-block;
+#references > div > div > div > div > div > div{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item img{
+  height: 250px;
+  width: 250px;
 }
 
 .carousel-items button {
