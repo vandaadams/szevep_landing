@@ -189,27 +189,46 @@ li a {
   justify-content: center;
 }
 
+.slick-next::before {
+  content: "\276F" !important;
+  font-size: 32px !important;
+}
+
+.slick-prev::before {
+  content: "\276E" !important;
+  font-size: 32px !important;
+}
+
 .carousel-item img{
   height: 250px;
   width: 250px;
 }
 
-.carousel-items button {
-  background: transparent;
-  border: none;
-  font-size: 3em;
-  cursor: pointer;
-}
-
-.carousel-items button:focus {
-    outline: none;
-}
 
 #contact {
-  background: #D6DBDE;
+  background: #FAC700;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+
+.left-side {
+  position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-side {
+  width: 100vw;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
 }
 
 #contact h1 {
@@ -233,6 +252,7 @@ li a {
   background-color: #fff;
   padding-right: 2em;
   border-radius: 4px;
+  margin-left: 1em;
 }
 
 .avatar img {
@@ -241,7 +261,6 @@ li a {
 
 .avatar {
   padding: 1em;
-  background: linear-gradient(to left, #fff 50% , #000 50%);
   border-radius: 4px;
 }
 
@@ -252,10 +271,6 @@ li a {
 
 .info-content h3 {
   font-family: 'Exo', sans-serif;
-}
-
-.footer-info {
-  background-color: #FAC700;
 }
 
 .footer-info ul {
