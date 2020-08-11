@@ -217,7 +217,7 @@ li a {
   position: relative;
     z-index: 1;
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -226,7 +226,7 @@ li a {
 
 .right-side {
   width: 100vw;
-  height: 40vh;
+  height: 30vh;
   background-size: cover;
   background-position: center;
 }
