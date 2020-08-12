@@ -213,14 +213,12 @@ li a {
   width: 250px;
 }
 
-
 #contact {
   background: #FAC700;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 
 .left-side {
   position: relative;
@@ -393,12 +391,16 @@ li a {
 
   .card {
     width: 70%;
-    margin: 2em;
-    padding: 2em;
+    margin: 1em;
+    padding: 0.5em 2em;
   }
 
   .card img {
-    width: 100px;
+    width: 90px;
+  }
+
+  .card h3 {
+    margin-top: 0;
   }
 
   .carousel-item img {
@@ -408,6 +410,7 @@ li a {
 
   .ref-content h3 {
     width: 100%;
+    font-size: 1em;
   }
 
   .left-side {
