@@ -350,6 +350,10 @@ li a {
     overflow-x: hidden;
   }
 
+  .hidden {
+    opacity: 1;
+  }
+
   #home {
     height: 100vh;
     text-align: center;
