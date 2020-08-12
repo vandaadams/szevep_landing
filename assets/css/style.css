@@ -80,6 +80,7 @@ li a {
 #home {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/photo-0.jpeg);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -115,6 +116,7 @@ li a {
 #services {
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/photo-6.jpeg);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -282,3 +284,5 @@ li a {
 .footer-info li {
   padding: 0 1.5em;
 }
+
+/* RESPONSIVE STYLING */
