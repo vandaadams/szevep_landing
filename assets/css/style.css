@@ -252,7 +252,7 @@ li a {
   background-color: #fff;
   padding-right: 2em;
   border-radius: 4px;
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 .avatar img {
@@ -277,4 +277,8 @@ li a {
   list-style: none;
   display: flex;
   justify-content: space-around;
+}
+
+.footer-info li {
+  padding: 0 1.5em;
 }
