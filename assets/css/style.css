@@ -380,6 +380,10 @@ li a {
     margin: 2.5em;
   }
 
+  #services {
+    padding: 2em 0;
+  }
+
   #services h1 {
     margin-bottom: 0;
     font-size: 2em;
@@ -409,7 +413,8 @@ li a {
 
   .slick-prev,
   .slick-next {
-    z-index: 3;
+    width: auto !important;
+    height: auto !important;
   }
 
   .carousel-item img {
