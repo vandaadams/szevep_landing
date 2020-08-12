@@ -407,6 +407,11 @@ li a {
     margin-top: 0;
   }
 
+  .slick-prev,
+  .slick-next {
+    z-index: 3;
+  }
+
   .carousel-item img {
     width: 200px;
     height: 200px;
