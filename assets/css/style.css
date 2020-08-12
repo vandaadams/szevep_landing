@@ -380,6 +380,7 @@ li a {
 
   #services h1 {
     margin-bottom: 0;
+    font-size: 2em;
   }
 
   .card-container {
@@ -393,6 +394,7 @@ li a {
     width: 70%;
     margin: 1em;
     padding: 0.5em 2em;
+    font-size: 0.8em;
   }
 
   .card img {
