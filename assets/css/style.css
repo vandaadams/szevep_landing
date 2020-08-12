@@ -357,6 +357,11 @@ li a {
     text-align: center;
   }
 
+  .home-content h1 {
+    margin: 1em;
+    font-size: 1.75em;
+  }
+
   .home-content h3 {
     display: none;
   }
