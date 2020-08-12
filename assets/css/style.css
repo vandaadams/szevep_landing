@@ -26,6 +26,10 @@ h1 {
   padding: 0.5em 0;
 }
 
+.nav-list .icon {
+  display: none;
+}
+
 li a {
   text-decoration: none;
   color: #000;
@@ -80,6 +84,7 @@ li a {
 #home {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/photo-0.jpeg);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -94,6 +99,10 @@ li a {
   justify-content: center;
   color: #fff;
   width: 60%;
+}
+
+.home-content p {
+  display: none;
 }
 
 #about {
@@ -115,6 +124,7 @@ li a {
 #services {
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/photo-6.jpeg);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -141,7 +151,6 @@ li a {
   text-align: center;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   background-color: rgba(255,255,255,0.8);
-  border-radius: 4px;
 }
 
 .card img {
@@ -237,7 +246,7 @@ li a {
   margin-top: 3em;
 }
 
-#contact h3 {
+#contact {
   text-align: center;
 }
 
@@ -251,7 +260,6 @@ li a {
   display: flex;
   background-color: #fff;
   padding-right: 2em;
-  border-radius: 4px;
   margin-left: 2em;
 }
 
@@ -281,4 +289,154 @@ li a {
 
 .footer-info li {
   padding: 0 1.5em;
+}
+
+/* RESPONSIVE STYLING */
+@media only screen and (max-width: 780px) {
+  .nav-list li:first-child {
+    margin-left: 1.5em;
+    font-size: 16px;
+  }
+
+  .nav-list img {
+    max-height: 25px;
+  }
+
+  .nav-underline {
+    display: none;
+  }
+
+  .nav-underline::after {
+    display: none;
+  }
+
+  .nav-list a.icon {
+    font-size: 1em;
+    margin-right: 1.5em;
+    float: right;
+    display: block;
+  }
+
+  .nav-list.responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 1.5em;
+  }
+
+  .nav-list.responsive li:first-child {
+    display: none;
+  }
+
+  .nav-list.responsive .icon {
+    position: absolute;
+    font-size: 1em;
+    right: 0;
+    top: 20px;
+  }
+
+  .nav-underline.responsive {
+    padding-right: 0;
+  }
+
+  .nav-list.responsive a {
+    font-size: 0.85em;
+    float: none;
+    display: block;
+  }
+
+  .section {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  #home {
+    height: 100vh;
+    text-align: center;
+  }
+
+  .home-content h3 {
+    display: none;
+  }
+
+  .home-content p {
+    display: block;
+    margin: 0;
+  }
+
+  #about {
+    flex-direction: column;
+    background: linear-gradient(to top, #FAC700 50% , #fff 50%);
+  }
+
+  .about-img img {
+    width: 70%;
+    margin-top: 5em;
+  }
+
+  .about-content {
+    margin: 2.5em;
+  }
+
+  #services h1 {
+    margin-bottom: 0;
+  }
+
+  .card-container {
+    margin: 0 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 70%;
+    margin: 2em;
+    padding: 2em;
+  }
+
+  .card img {
+    width: 100px;
+  }
+
+  .carousel-item img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .ref-content h3 {
+    width: 100%;
+  }
+
+  .left-side {
+    height: auto;
+  }
+
+  .left-side h3 {
+    margin: 1em;
+  }
+
+  .cards {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .info-content {
+    display: block;
+  }
+
+  .info-card {
+    margin-left: 0;
+    margin: 1em;
+  }
+
+  .footer-info {
+    text-align: center;
+  }
+
+  .footer-info ul {
+    flex-direction: column;
+  }
 }
