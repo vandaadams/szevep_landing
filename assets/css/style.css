@@ -26,6 +26,10 @@ h1 {
   padding: 0.5em 0;
 }
 
+.nav-list .icon {
+  display: none;
+}
+
 li a {
   text-decoration: none;
   color: #000;
@@ -242,7 +246,7 @@ li a {
   margin-top: 3em;
 }
 
-#contact h3 {
+#contact {
   text-align: center;
 }
 
@@ -289,8 +293,63 @@ li a {
 
 /* RESPONSIVE STYLING */
 @media only screen and (max-width: 720px) {
+  .nav-list li:first-child {
+    margin-left: 1.5em;
+    font-size: 16px;
+  }
+
+  .nav-list img {
+    max-height: 25px;
+  }
+
+  .nav-underline {
+    display: none;
+  }
+
+  .nav-underline::after {
+    display: none;
+  }
+
+  .nav-list a.icon {
+    font-size: 1em;
+    margin-right: 1.5em;
+    float: right;
+    display: block;
+  }
+
+  .nav-list.responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 1.5em;
+  }
+
+  .nav-list.responsive li:first-child {
+    display: none;
+  }
+
+  .nav-list.responsive .icon {
+    position: absolute;
+    font-size: 1em;
+    right: 0;
+    top: 20px;
+  }
+
+  .nav-underline.responsive {
+    padding-right: 0;
+  }
+
+  .nav-list.responsive a {
+    font-size: 0.85em;
+    float: none;
+    display: block;
+  }
+
   .section {
     height: auto;
+    width: 100vw;
+    overflow-x: hidden;
   }
 
   #home {
@@ -313,9 +372,8 @@ li a {
   }
 
   .about-img img {
-    width: 90vw;
-    margin: 2.5em;
-    padding: 2.5em;
+    width: 70%;
+    margin-top: 5em;
   }
 
   .about-content {
@@ -343,8 +401,9 @@ li a {
     width: 100px;
   }
 
-  .ref-content {
-    margin: 2em;
+  .carousel-item img {
+    width: 200px;
+    height: 200px;
   }
 
   .ref-content h3 {
@@ -355,14 +414,22 @@ li a {
     height: auto;
   }
 
+  .left-side h3 {
+    margin: 1em;
+  }
+
   .cards {
     flex-direction: column;
     margin: 0;
   }
 
+  .info-content {
+    display: block;
+  }
+
   .info-card {
     margin-left: 0;
-    margin-bottom: 1em;
+    margin: 1em;
   }
 
   .footer-info {
