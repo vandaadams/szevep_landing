@@ -360,7 +360,6 @@ li a {
   .home-content h1 {
     margin: 1em;
     font-size: 1.75em;
-    -webkit-touch-callout:none;
   }
 
   .home-content h3 {
@@ -448,7 +447,6 @@ li a {
 
   .info-content {
     display: block;
-    -webkit-touch-callout:none;
   }
 
   .info-card {
@@ -462,5 +460,15 @@ li a {
 
   .footer-info ul {
     flex-direction: column;
+  }
+
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+  }
+
+  .noselect::selection {
+    color: none;
+    background: none;
   }
 }
