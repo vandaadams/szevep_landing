@@ -360,6 +360,7 @@ li a {
   .home-content h1 {
     margin: 1em;
     font-size: 1.75em;
+    -webkit-touch-callout:none;
   }
 
   .home-content h3 {
@@ -447,6 +448,7 @@ li a {
 
   .info-content {
     display: block;
+    -webkit-touch-callout:none;
   }
 
   .info-card {
