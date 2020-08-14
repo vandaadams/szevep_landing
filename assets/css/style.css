@@ -288,7 +288,8 @@ li a {
 }
 
 .noselect > a {
-  text-decoration:none; color:inherit;
+  text-decoration:none;
+  color:inherit;
 }
 
 /* RESPONSIVE STYLING */
@@ -431,9 +432,17 @@ li a {
     height: 200px;
   }
 
+  .ref-content {
+    margin: 2em;
+  }
+
   .ref-content h3 {
     width: 100%;
     font-size: 1em;
+  }
+
+  .carousel {
+    margin: 2em;
   }
 
   .left-side {
