@@ -231,9 +231,10 @@ li a {
 
 .right-side {
   width: 100vw;
-  height: 30vh;
+  height: 50vh;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 #contact h1 {
@@ -451,6 +452,10 @@ li a {
 
   .left-side h3 {
     margin: 1em;
+  }
+
+  iframe {
+    height: 110%;
   }
 
   .cards {
